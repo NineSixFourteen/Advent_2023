@@ -69,7 +69,6 @@ public class Runner{
             int value = IsDigit(line, i);
             if(value != -1){
                 first = value;
-                Console.WriteLine(first);
                 break;
             }
         }
@@ -77,7 +76,6 @@ public class Runner{
             int value = IsDigit(line, i);
             if(value != -1){
                 last = value;
-                Console.WriteLine(last);
                 break;
             }
         }

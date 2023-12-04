@@ -9,7 +9,8 @@ class Interface {
             case 1:
                 Console.WriteLine(Runner.run());
                 break;
-            case 2: 
+            case 2:
+                Console.WriteLine(DayTwo.DayTwo.run()); 
                 break;
             default:
                 Console.WriteLine("Sorry, I have not done that day of advent yet :)");
