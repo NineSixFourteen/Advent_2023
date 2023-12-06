@@ -32,7 +32,6 @@ public class DayFour{
             while(line != null){
                 (int[], int[]) value = parse(line);
                 int cards = countSame(value); 
-                Console.WriteLine(numberOfCards[lineNumber]);
                 for(int i = 1; i <= cards;i++){
                     if(lineNumber + 1 < numberOfCards.Length){
                         numberOfCards[lineNumber + i] += numberOfCards[lineNumber];

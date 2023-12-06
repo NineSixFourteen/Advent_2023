@@ -18,6 +18,9 @@ class Interface {
             case 4:
                 Console.WriteLine(DayFour.DayFour.run());
                 break;
+            case 5:
+                Console.WriteLine(DayFive.DayFive.run());
+                break;
             default:
                 Console.WriteLine("Sorry, I have not done that day of advent yet :)");
                 break;
