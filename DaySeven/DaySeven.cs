@@ -150,9 +150,7 @@ public class DaySeven{
                 joker++;
             }
         });
-        chars.ForEach(x => Console.Write(x));
         chars = chars.Where(x => x != 'J').ToList();
-        chars.ForEach(x => Console.Write(x));
         Console.WriteLine();
         if(chars.Count < 2){
            return 6;
