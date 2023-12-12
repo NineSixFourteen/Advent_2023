@@ -1,5 +1,4 @@
-﻿using System.Numerics;
-using DayOne;
+﻿using DayOne;
 
 class Interface {
     static void Main(string[] args) {
@@ -19,7 +18,7 @@ class Interface {
                 Console.WriteLine(DayFour.DayFour.run());
                 break;
             case 5:
-                Console.WriteLine(DayFive.DayFive.run());
+                Console.WriteLine(DayFive.Attempt2.run());
                 break;
             case 6: 
                 Console.WriteLine(DaySix.DaySix.run());
@@ -29,6 +28,9 @@ class Interface {
                 break;
             case 8: 
                 Console.WriteLine(DayEight.DayEight.run());
+                break;
+            case 9: 
+                Console.WriteLine(DayNine.DayNine.run());
                 break;
             default:
                 Console.WriteLine("Sorry, I have not done that day of advent yet :)");
